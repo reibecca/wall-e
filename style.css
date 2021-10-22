@@ -1,12 +1,16 @@
 /* SECTION 1 ACCUEIL */
 
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
 
 #wall-e{
     background-image: url('wall-eBg.png');
-    width: 1442px;
+    width: 100%;
     height: 721px;
     display: flex;
     flex-direction: column;
